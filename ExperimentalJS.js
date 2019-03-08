@@ -1,4 +1,4 @@
-//TODO: EPISODE 1 ***
+//TODO: EPISODE 1 - CONSTRUCTOR & PROTOTYPE***
 
 //Constructor
 var Person = function (name, yearOfBirth, job) {
@@ -20,32 +20,8 @@ var Samet = new Person("John", 1987, "Mobile App Developer") //Instantiation of 
 John.calculateAge()
 console.log(John.field) //We populate constructor variables from outside via prototype
 
+//TODO: EPISODE 2 - OBJECT.CREATE (PROTOTYPing)***
+
+//First define an object as a prototype, then create a new object based on that very prototype
 
 
-
-
-
-
-
-
-
-
-
-
-/* 
-FUNCTION QUESTION(QUESTION, ANSWERS, CORRECT) {
-        THIS.QUESTION = QUESTION
-        THIS.ANSWERS = ANSWERS
-        THIS.CORRECT = CORRECT
-}
-
-VAR QUESTION1 = NEW QUESTION("IS JS THE COLLEST LANGUAGE IN THE WORLD?", ["YES", "NO"], 0)
-
-VAR QUESTION2 = NEW QUESTION("WHAT IS THE NAME OF THE TEACHER?", ["JOHN", "MIKE", "JONAS"], 2)
-
-VAR QUESTION3 = NEW QUESTION("HOW TO DESCRIBE THIS COURSE?", ["GOOD", "BAD", "UGLY"], 1)
-
-//TODO: PUT THEM IN A RANDOM ORDER
-VAR QUESTIONS = [QUESTION1, QUESTION2, QUESTION3]
-
-VAR R = MATH.FLOOR(MATH.RANDOM() * QUESTIONS.LENGTH) */
